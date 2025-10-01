@@ -5,37 +5,31 @@ export function Skills() {
     {
       name: "Java",
       symbol: "☕",
-      description: "Enterprise applications & backend development",
       color: "border-orange-500 hover:bg-orange-500/10",
     },
     {
       name: "JavaScript",
-      symbol: "🟨",
-      description: "Frontend development & web applications",
+      symbol: "",
       color: "border-yellow-500 hover:bg-yellow-500/10",
     },
     {
       name: "MySQL",
-      symbol: "🗄️",
-      description: "Database design & query optimization",
+      symbol: "",
       color: "border-blue-500 hover:bg-blue-500/10",
     },
     {
       name: "C",
-      symbol: "⚡",
-      description: "System programming & performance optimization",
+      symbol: "",
       color: "border-gray-500 hover:bg-gray-500/10",
     },
     {
       name: "C++",
-      symbol: "🔧",
-      description: "Object-oriented programming & algorithms",
+      symbol: "",
       color: "border-purple-500 hover:bg-purple-500/10",
     },
     {
       name: "React",
       symbol: "⚛️",
-      description: "Modern UI development & component architecture",
       color: "border-cyan-500 hover:bg-cyan-500/10",
     },
   ]
@@ -54,7 +48,6 @@ export function Skills() {
               <CardContent className="p-6 text-center">
                 <div className="text-4xl mb-4">{skill.symbol}</div>
                 <h3 className="text-xl font-bold text-foreground mb-2">{skill.name}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">{skill.description}</p>
               </CardContent>
             </Card>
           ))}

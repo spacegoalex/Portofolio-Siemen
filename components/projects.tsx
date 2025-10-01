@@ -6,43 +6,43 @@ import { ExternalLink } from "lucide-react"
 export function Projects() {
   const projects = [
     {
-      title: "Real-time Analytics Dashboard",
+      title: "CoreFit",
       description:
-        "Built a comprehensive real-time analytics dashboard using Apache Kafka, Spark Streaming, and React. Processes over 1M events per minute and provides instant insights for business stakeholders.",
+        "CoreFit is a free fitness app that makes health and wellness accessible to everyone. It features a BMI calculator, nutrition tracker, AI-powered health consultation, personalized workout programs, and more—all in one easy-to-use platform.",
       image: "/real-time-analytics-dashboard.png",
-      technologies: ["Java", "JavaScript", "React", "Apache Kafka"],
+      technologies: ["React", "Figma"],
       demoLink: "https://youtube.com/watch?v=demo1",
     },
     {
-      title: "Data Lake Architecture",
+      title: "Indonesian Bank Detector",
       description:
-        "Designed and implemented a scalable data lake architecture on AWS using S3, Glue, and Athena. Reduced data processing costs by 60% while improving query performance by 3x.",
+        "Developed a machine learning system that can accurately detect and recognize the value of Indonesian banknotes. This technology is designed to assist blind and visually impaired individuals, giving them the ability to independently verify their money and reduce the risk of being scammed.",
       image: "/data-lake-architecture-diagram.jpg",
-      technologies: ["Python", "SQL", "AWS", "Apache Spark"],
+      technologies: ["Python"],
       demoLink: "https://youtube.com/watch?v=demo2",
     },
     {
-      title: "ML Pipeline Automation",
+      title: "Warehouse Sorting",
       description:
-        "Created an automated machine learning pipeline that handles data preprocessing, model training, and deployment. Reduced model deployment time from weeks to hours.",
+        "Created a warehouse sorting machine that automatically organizes items based on their barcodes. This system streamlines the sorting process, reduces human error, and improves overall efficiency in warehouse operations.",
       image: "/machine-learning-pipeline-automation.jpg",
-      technologies: ["Python", "Docker", "Kubernetes", "MLflow"],
+      technologies: ["Python"],
       demoLink: "https://youtube.com/watch?v=demo3",
     },
     {
-      title: "ETL Data Processing System",
+      title: "Vkellogg's",
       description:
-        "Developed a robust ETL system processing 50GB+ daily data from multiple sources. Implemented data quality checks and automated error handling with 99.9% uptime.",
+        "Developed a website for a well-known brand, focusing on delivering a modern design, smooth user experience, and strong brand presence online.",
       image: "/etl-data-processing-system.jpg",
-      technologies: ["Python", "SQL", "Apache Airflow", "PostgreSQL"],
+      technologies: ["Figma","HTML","CSS","JavaScript"],
       demoLink: "https://youtube.com/watch?v=demo4",
     },
     {
-      title: "Customer Analytics Platform",
+      title: "Money Manager App",
       description:
-        "Built a comprehensive customer analytics platform that provides 360-degree customer insights. Integrated data from 15+ sources and serves 100+ business users daily.",
+        "Designed a user-friendly mobile app for managing personal finances, helping users track expenses and monitor savings. The app was built with a clean interface and intuitive features to make money management easier, more organized, and accessible for everyday users.",
       image: "/customer-analytics-platform.jpg",
-      technologies: ["Java", "JavaScript", "React", "MySQL"],
+      technologies: ["Figma"],
       demoLink: "https://youtube.com/watch?v=demo5",
     },
   ]
@@ -56,7 +56,7 @@ export function Projects() {
           {projects.map((project, index) => (
             <Card key={index} className="bg-card border-border hover:border-primary/50 transition-colors group">
               <CardContent className="p-0">
-                <div className="aspect-video overflow-hidden rounded-t-lg">
+                <div className="aspect-video overflow-hidden rounded-t-lg text-2xl">
                   <img
                     src={project.image || "/placeholder.svg"}
                     alt={project.title}
@@ -64,12 +64,12 @@ export function Projects() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-foreground mb-3 text-balance">{project.title}</h3>
+                  <h3 className="text-2xl font-semibold text-foreground mb-3 text-balance text-2xl">{project.title}</h3>
                   <p className="text-muted-foreground text-sm leading-relaxed mb-4 text-pretty">
                     {project.description}
                   </p>
 
-                  <div className="flex flex-wrap gap-2 mb-4">
+                  <div className="flex flex-wrap gap-2 mb-4 text-xl">
                     {project.technologies.map((tech, techIndex) => (
                       <Badge key={techIndex} variant="secondary" className="text-xs">
                         {tech}
@@ -77,8 +77,8 @@ export function Projects() {
                     ))}
                   </div>
 
-                  <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
-                    <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
+                  <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground text-xl">
+                    <a href={project.demoLink} target="_blank" rel="noopener noreferrer" >
                       <ExternalLink className="w-4 h-4 mr-2" />
                       View Demo
                     </a>

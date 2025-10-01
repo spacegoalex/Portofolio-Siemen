@@ -17,28 +17,21 @@ export function Contact() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
-                <a href="https://linkedin.com/in/siemen-gunawan-iksan" target="_blank" rel="noopener noreferrer">
+                <a href="https://linkedin.com/in/siemen-iksan" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="w-5 h-5 mr-2" />
                   LinkedIn
                 </a>
               </Button>
 
               <Button asChild size="lg" className="bg-gray-800 hover:bg-gray-900 text-white">
-                <a href="https://github.com/siemen-gunawan-iksan" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/spacegoalex" target="_blank" rel="noopener noreferrer">
                   <Github className="w-5 h-5 mr-2" />
                   GitHub
                 </a>
               </Button>
 
-              <Button asChild size="lg" className="bg-green-600 hover:bg-green-700 text-white">
-                <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer">
-                  <MessageCircle className="w-5 h-5 mr-2" />
-                  WhatsApp
-                </a>
-              </Button>
-
               <Button asChild size="lg" className="bg-red-600 hover:bg-red-700 text-white">
-                <a href="mailto:siemen.gunawan@gmail.com">
+                <a href="mailto:iksansiemen@gmail.com">
                   <Mail className="w-5 h-5 mr-2" />
                   Gmail
                 </a>

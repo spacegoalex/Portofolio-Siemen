@@ -56,7 +56,7 @@ export function Header() {
                 key={item.id}
                 variant="ghost"
                 onClick={() => scrollToSection(item.id)}
-                className={`text-sm font-medium transition-colors hover:text-primary ${
+                className={`text-xl font-medium transition-colors hover:text-primary ${
                   activeSection === item.id ? "text-primary" : "text-muted-foreground"
                 }`}
               >

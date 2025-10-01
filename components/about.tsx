@@ -54,20 +54,25 @@ export function About() {
       description:
         "I developed a deep learning model to address real-world challenges across industries. My project focused on salary prediction for regions across Indonesia, providing valuable insights for international companies seeking to identify areas with the lowest operational costs.",
       poster: "/Datathon.jpg",
+      example: "/DatathonChart.png",
+      example2: "/DatathonCode.png",
+      example3: "/DatathonCode2.png"
     },
     {
       title: "BUSINESS CASE COMPETITION",
       description:
         "We were tasked with addressing a marketing challenge faced by by.U. To better understand customer needs and behaviors, we conducted a survey and analyzed the results. Based on these insights, we developed a targeted campaign solution aimed at effectively addressing the problem and enhancing by.U’s market engagement.",
       poster: "/Bpre.jpg",
+      example: "/Page1.png",
+      example2: "/Page2.png"
     }
   ]
 
   const languages = [
     { name: "Indonesian", level: 100, color: "bg-red-500" },
-    { name: "English", level: 85, color: "bg-blue-500" },
-    { name: "Mandarin", level: 70, color: "bg-yellow-500" },
-    { name: "Japanese", level: 60, color: "bg-green-500" },
+    { name: "English", level: 95, color: "bg-blue-500" },
+    { name: "Mandarin", level: 65, color: "bg-yellow-500" },
+    { name: "Japanese", level: 40, color: "bg-green-500" },
   ]
 
   return (
@@ -133,6 +138,25 @@ export function About() {
                   />
                   <h4 className="text-2xl font-semibold text-foreground mb-3 text-balance">{comp.title}</h4>
                   <p className="text-muted-foreground leading-relaxed text-pretty text-xl">{comp.description}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+          <div className="grid md:grid-cols-2 gap-8">
+            {competitions.map((comp, index) => (
+              <Card key={index} className="bg-card border-border">
+                <CardContent className="p-6">
+                  <h4 className="text-2xl font-semibold text-foreground mb-3 text-balance text-center">{comp.title}</h4>
+                  <img
+                    src={comp.example}
+                    alt={comp.title}
+                    className="max-w-full h-auto rounded-lg mb-4 mx-auto"
+                  />
+                  <img
+                    src={comp.example2}
+                    alt={comp.title}
+                    className="max-w-full h-auto rounded-lg mb-4 mx-auto"
+                  />
                 </CardContent>
               </Card>
             ))}

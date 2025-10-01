@@ -5,7 +5,7 @@ export function Footer() {
         <div className="text-center">
           <p className="text-muted-foreground text-sm mb-2">© 2025 Siemen Gunawan Iksan. All rights reserved.</p>
           <p className="text-muted-foreground text-sm">
-            Thank you for visiting my portfolio. Let's build something amazing together!
+            Thank you for visiting my portfolio.3
           </p>
         </div>
       </div>
