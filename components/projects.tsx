@@ -45,6 +45,14 @@ export function Projects() {
       technologies: ["Figma"],
       demoLink: "https://youtu.be/2rvl3AOux_s",
     },
+    {
+      title: "Sohun Dua Udang Website",
+      description:
+        "Created a company website with Next.js and successfully launched it on a custom domain using Vercel.",
+      image: "\Sohun2Udang.png",
+      technologies: ["Next.js"],
+      demoLink: "https://www.sohun2udang.com/",
+    },
   ]
 
   return (
