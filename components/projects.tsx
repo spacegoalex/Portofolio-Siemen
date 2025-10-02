@@ -9,41 +9,41 @@ export function Projects() {
       title: "CoreFit",
       description:
         "CoreFit is a free fitness app that makes health and wellness accessible to everyone. It features a BMI calculator, nutrition tracker, AI-powered health consultation, personalized workout programs, and more—all in one easy-to-use platform.",
-      image: "/real-time-analytics-dashboard.png",
-      technologies: ["React", "Figma"],
-      demoLink: "https://youtube.com/watch?v=demo1",
+      image: "\CorefitPic.png",
+      technologies: ["React", "Figma", "NodeJS"],
+      demoLink: "/COREFIT.pdf",
     },
     {
       title: "Indonesian Bank Detector",
       description:
         "Developed a machine learning system that can accurately detect and recognize the value of Indonesian banknotes. This technology is designed to assist blind and visually impaired individuals, giving them the ability to independently verify their money and reduce the risk of being scammed.",
-      image: "/data-lake-architecture-diagram.jpg",
+      image: "\BankDetectorPic.png",
       technologies: ["Python"],
-      demoLink: "https://youtube.com/watch?v=demo2",
+      demoLink: "https://youtu.be/F9u3CT5p2lo",
     },
     {
       title: "Warehouse Sorting",
       description:
         "Created a warehouse sorting machine that automatically organizes items based on their barcodes. This system streamlines the sorting process, reduces human error, and improves overall efficiency in warehouse operations.",
-      image: "/machine-learning-pipeline-automation.jpg",
+      image: "\WarehousePIC.png",
       technologies: ["Python"],
-      demoLink: "https://youtube.com/watch?v=demo3",
+      demoLink: "https://youtu.be/twidvjnAaO4",
     },
     {
       title: "Vkellogg's",
       description:
-        "Developed a website for a well-known brand, focusing on delivering a modern design, smooth user experience, and strong brand presence online.",
-      image: "/etl-data-processing-system.jpg",
+        "Developed a simple design for a website for a well-known brand, focusing on delivering a modern design, smooth user experience, and strong brand presence online.",
+      image: "\VkelloggPIC.png",
       technologies: ["Figma","HTML","CSS","JavaScript"],
-      demoLink: "https://youtube.com/watch?v=demo4",
+      demoLink: "https://youtu.be/b_xQrmFgkuE",
     },
     {
       title: "Money Manager App",
       description:
-        "Designed a user-friendly mobile app for managing personal finances, helping users track expenses and monitor savings. The app was built with a clean interface and intuitive features to make money management easier, more organized, and accessible for everyday users.",
-      image: "/customer-analytics-platform.jpg",
+        "Designed a simple design app for managing personal finances, helping users track expenses and monitor savings. Giving reports of your expense.",
+      image: "\FinancePIC.png",
       technologies: ["Figma"],
-      demoLink: "https://youtube.com/watch?v=demo5",
+      demoLink: "https://youtu.be/2rvl3AOux_s",
     },
   ]
 
