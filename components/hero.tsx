@@ -9,7 +9,7 @@ export function Hero() {
        
         <div className="mt-8">
           <a
-            href="/CV_Siemen.pdf"
+            href="/CV_Siemen Gunawan Iksan.pdf"
             download
             className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors duration-200 shadow-lg hover:shadow-xl"
           >
